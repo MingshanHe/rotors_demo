@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: control_develop
+Description: Description of control_develop
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs mav_msgs sensor_msgs trajectory_msgs rospy
